@@ -1,0 +1,2 @@
+*/10 * * * * /home/usuario/anaconda3/envs/goes/bin/python /home/usuario/Escritorio/BELEN/geonet/Scripts/monitor.py > /home/usuario/Escritorio/BELEN/geonet/Output/python.log 2>&1
+

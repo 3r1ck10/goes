@@ -1,0 +1,58 @@
+<PAMDataset>
+  <Subdataset name="//CMI">
+    <PAMDataset>
+      <SRS>PROJCS["unnamed",GEOGCS["unnamed ellipse",DATUM["unknown",SPHEROID["unnamed",6378137,298.2572221]],PRIMEM["Greenwich",0],UNIT["degree",0.0174532925199433]],PROJECTION["Geostationary_Satellite"],PARAMETER["central_meridian",-89.5],PARAMETER["satellite_height",35786023],PARAMETER["false_easting",0],PARAMETER["false_northing",0],EXTENSION["PROJ4","+proj=geos +h=35786023.0 +a=6378137.0 +b=6356752.31414 +f=0.00335281068119356027 +lat_0=0.0 +lon_0=-89.5 +sweep=x +no_defs"]]</SRS>
+      <GeoTransform> -5.4348948850560002e+06,  2.0040172880000000e+03,  0.0000000000000000e+00,  5.4348948850560002e+06,  0.0000000000000000e+00, -2.0040172880000000e+03</GeoTransform>
+      <Metadata>
+        <MDI key="cdm_data_type">Image</MDI>
+        <MDI key="Conventions">CF-1.7</MDI>
+        <MDI key="dataset_name">OR_ABI-L2-CMIPF-M3C13_G16_s20183532145334_e20183532156112_c20183532156189.nc</MDI>
+        <MDI key="date_created">2018-12-19T21:56:18.9Z</MDI>
+        <MDI key="id">03ec81d0-cb90-482d-a686-edd507ef6a83</MDI>
+        <MDI key="institution">DOC/NOAA/NESDIS &gt; U.S. Department of Commerce, National Oceanic and Atmospheric Administration, National Environmental Satellite, Data, and Information Services</MDI>
+        <MDI key="instrument_ID">FM1</MDI>
+        <MDI key="instrument_type">GOES R Series Advanced Baseline Imager</MDI>
+        <MDI key="iso_series_metadata_id">8c9e8150-3692-11e3-aa6e-0800200c9a66</MDI>
+        <MDI key="keywords">SPECTRAL/ENGINEERING &gt; INFRARED WAVELENGTHS &gt; BRIGHTNESS TEMPERATURE</MDI>
+        <MDI key="keywords_vocabulary">NASA Global Change Master Directory (GCMD) Earth Science Keywords, Version 7.0.0.0.0</MDI>
+        <MDI key="license">Unclassified data.  Access is restricted to approved users only.</MDI>
+        <MDI key="Metadata_Conventions">Unidata Dataset Discovery v1.0</MDI>
+        <MDI key="naming_authority">gov.nesdis.noaa</MDI>
+        <MDI key="orbital_slot">GOES-East</MDI>
+        <MDI key="platform_ID">G16</MDI>
+        <MDI key="processing_level">National Aeronautics and Space Administration (NASA) L2</MDI>
+        <MDI key="production_data_source">Realtime</MDI>
+        <MDI key="production_environment">OE</MDI>
+        <MDI key="production_site">NSOF</MDI>
+        <MDI key="project">GOES</MDI>
+        <MDI key="scene_id">Full Disk</MDI>
+        <MDI key="spatial_resolution">2km at nadir</MDI>
+        <MDI key="standard_name_vocabulary">CF Standard Name Table (v25, 05 July 2013)</MDI>
+        <MDI key="summary">Single emissive band Cloud and Moisture Imagery Products are digital maps of clouds, moisture and atmospheric windows at IR bands.</MDI>
+        <MDI key="timeline_id">ABI Mode 3</MDI>
+        <MDI key="time_coverage_end">2018-12-19T21:56:11.2Z</MDI>
+        <MDI key="time_coverage_start">2018-12-19T21:45:33.4Z</MDI>
+        <MDI key="title">ABI L2 Cloud and Moisture Imagery</MDI>
+      </Metadata>
+      <PAMRasterBand band="1">
+        <Metadata>
+          <MDI key="CMI_add_offset">89.620003 </MDI>
+          <MDI key="CMI_ancillary_variables">DQF</MDI>
+          <MDI key="CMI_cell_methods">t: point area: point</MDI>
+          <MDI key="CMI_coordinates">band_id band_wavelength t y x</MDI>
+          <MDI key="CMI_grid_mapping">goes_imager_projection</MDI>
+          <MDI key="CMI_long_name">ABI L2+ Cloud and Moisture Imagery brightness temperature</MDI>
+          <MDI key="CMI_resolution">y: 0.000056 rad x: 0.000056 rad</MDI>
+          <MDI key="CMI_scale_factor">0.06145332 </MDI>
+          <MDI key="CMI_sensor_band_bit_depth"> </MDI>
+          <MDI key="CMI_standard_name">toa_brightness_temperature</MDI>
+          <MDI key="CMI_units">K</MDI>
+          <MDI key="CMI_valid_range">0 4095 </MDI>
+          <MDI key="CMI__FillValue">-1 </MDI>
+          <MDI key="CMI__Netcdf4Dimid">0 </MDI>
+          <MDI key="CMI__Unsigned">true</MDI>
+        </Metadata>
+      </PAMRasterBand>
+    </PAMDataset>
+  </Subdataset>
+</PAMDataset>
